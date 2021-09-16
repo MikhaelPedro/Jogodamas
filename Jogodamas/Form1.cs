@@ -75,6 +75,7 @@ namespace Jogodamas
 
                     if(true)
                     {
+                        Ifqueen(cor);
                         vez++;
                         selecionado.BackColor = Color.Black;
                         selecionado = null;
@@ -87,10 +88,26 @@ namespace Jogodamas
                 }
             }
         }
-
-        private void ifqueen(string color)
+        private int media(int n1, int n2)
         {
+            int resultado = n1 + n2;
+            resultado = resultado / 2;
+            return Math.Abs(resultado);
 
+        }
+
+        private void Ifqueen(string color)
+        {
+            if(color == "azuis" && selecionado.Location.Y == 400)
+            {
+                selecionado.BackgroundImage = Properties.Resources.coroazul;
+                selecionado.Tag = "rainha";
+            }
+            else if (color == "vermelhos" && selecionado.Location.Y == 50)
+            {
+                selecionado.BackgroundImage = Properties.Resources.coroaverm;
+                selecionado.Tag = "rainha";
+            }
         }
         private void Form1_Load(object sender, EventArgs e)
         {

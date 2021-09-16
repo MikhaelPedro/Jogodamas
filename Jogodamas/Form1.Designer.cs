@@ -847,7 +847,7 @@ namespace Jogodamas
             this.PcAzul12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul12.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul12.Location = new System.Drawing.Point(264, 390);
+            this.PcAzul12.Location = new System.Drawing.Point(494, 170);
             this.PcAzul12.Name = "PcAzul12";
             this.PcAzul12.Size = new System.Drawing.Size(46, 44);
             this.PcAzul12.TabIndex = 77;
@@ -859,7 +859,7 @@ namespace Jogodamas
             this.PcAzul11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul11.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul11.Location = new System.Drawing.Point(170, 390);
+            this.PcAzul11.Location = new System.Drawing.Point(400, 170);
             this.PcAzul11.Name = "PcAzul11";
             this.PcAzul11.Size = new System.Drawing.Size(46, 44);
             this.PcAzul11.TabIndex = 76;
@@ -871,7 +871,7 @@ namespace Jogodamas
             this.PcAzul10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul10.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul10.Location = new System.Drawing.Point(80, 390);
+            this.PcAzul10.Location = new System.Drawing.Point(310, 170);
             this.PcAzul10.Name = "PcAzul10";
             this.PcAzul10.Size = new System.Drawing.Size(46, 44);
             this.PcAzul10.TabIndex = 75;
@@ -883,7 +883,7 @@ namespace Jogodamas
             this.PcAzul9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul9.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul9.Location = new System.Drawing.Point(-12, 390);
+            this.PcAzul9.Location = new System.Drawing.Point(218, 170);
             this.PcAzul9.Name = "PcAzul9";
             this.PcAzul9.Size = new System.Drawing.Size(46, 44);
             this.PcAzul9.TabIndex = 74;
@@ -895,7 +895,7 @@ namespace Jogodamas
             this.PcAzul8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul8.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul8.Location = new System.Drawing.Point(66, 252);
+            this.PcAzul8.Location = new System.Drawing.Point(310, 82);
             this.PcAzul8.Name = "PcAzul8";
             this.PcAzul8.Size = new System.Drawing.Size(46, 44);
             this.PcAzul8.TabIndex = 73;
@@ -907,7 +907,7 @@ namespace Jogodamas
             this.PcAzul7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul7.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul7.Location = new System.Drawing.Point(166, 214);
+            this.PcAzul7.Location = new System.Drawing.Point(218, 82);
             this.PcAzul7.Name = "PcAzul7";
             this.PcAzul7.Size = new System.Drawing.Size(46, 44);
             this.PcAzul7.TabIndex = 72;
@@ -919,7 +919,7 @@ namespace Jogodamas
             this.PcAzul6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul6.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul6.Location = new System.Drawing.Point(126, 346);
+            this.PcAzul6.Location = new System.Drawing.Point(446, 126);
             this.PcAzul6.Name = "PcAzul6";
             this.PcAzul6.Size = new System.Drawing.Size(46, 44);
             this.PcAzul6.TabIndex = 71;
@@ -931,7 +931,7 @@ namespace Jogodamas
             this.PcAzul5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul5.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul5.Location = new System.Drawing.Point(34, 346);
+            this.PcAzul5.Location = new System.Drawing.Point(538, 126);
             this.PcAzul5.Name = "PcAzul5";
             this.PcAzul5.Size = new System.Drawing.Size(46, 44);
             this.PcAzul5.TabIndex = 70;
@@ -943,7 +943,7 @@ namespace Jogodamas
             this.PcAzul4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul4.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul4.Location = new System.Drawing.Point(118, 252);
+            this.PcAzul4.Location = new System.Drawing.Point(400, 82);
             this.PcAzul4.Name = "PcAzul4";
             this.PcAzul4.Size = new System.Drawing.Size(46, 44);
             this.PcAzul4.TabIndex = 69;
@@ -955,7 +955,7 @@ namespace Jogodamas
             this.PcAzul3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul3.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul3.Location = new System.Drawing.Point(170, 302);
+            this.PcAzul3.Location = new System.Drawing.Point(264, 126);
             this.PcAzul3.Name = "PcAzul3";
             this.PcAzul3.Size = new System.Drawing.Size(46, 44);
             this.PcAzul3.TabIndex = 68;
@@ -967,7 +967,7 @@ namespace Jogodamas
             this.PcAzul2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul2.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul2.Location = new System.Drawing.Point(80, 302);
+            this.PcAzul2.Location = new System.Drawing.Point(492, 82);
             this.PcAzul2.Name = "PcAzul2";
             this.PcAzul2.Size = new System.Drawing.Size(46, 44);
             this.PcAzul2.TabIndex = 67;
@@ -979,7 +979,7 @@ namespace Jogodamas
             this.PcAzul1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcAzul1.BackgroundImage = global::Jogodamas.Properties.Resources.blueButton;
             this.PcAzul1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcAzul1.Location = new System.Drawing.Point(-12, 302);
+            this.PcAzul1.Location = new System.Drawing.Point(356, 126);
             this.PcAzul1.Name = "PcAzul1";
             this.PcAzul1.Size = new System.Drawing.Size(46, 44);
             this.PcAzul1.TabIndex = 66;
@@ -1002,7 +1002,7 @@ namespace Jogodamas
             this.PcVermelho12.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho12.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho12.Location = new System.Drawing.Point(676, 170);
+            this.PcVermelho12.Location = new System.Drawing.Point(446, 390);
             this.PcVermelho12.Name = "PcVermelho12";
             this.PcVermelho12.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho12.TabIndex = 97;
@@ -1014,7 +1014,7 @@ namespace Jogodamas
             this.PcVermelho11.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho11.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho11.Location = new System.Drawing.Point(584, 170);
+            this.PcVermelho11.Location = new System.Drawing.Point(354, 390);
             this.PcVermelho11.Name = "PcVermelho11";
             this.PcVermelho11.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho11.TabIndex = 96;
@@ -1026,7 +1026,7 @@ namespace Jogodamas
             this.PcVermelho10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho10.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho10.Location = new System.Drawing.Point(590, 252);
+            this.PcVermelho10.Location = new System.Drawing.Point(538, 302);
             this.PcVermelho10.Name = "PcVermelho10";
             this.PcVermelho10.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho10.TabIndex = 95;
@@ -1038,7 +1038,7 @@ namespace Jogodamas
             this.PcVermelho9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho9.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho9.Location = new System.Drawing.Point(310, 32);
+            this.PcVermelho9.Location = new System.Drawing.Point(264, 302);
             this.PcVermelho9.Name = "PcVermelho9";
             this.PcVermelho9.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho9.TabIndex = 94;
@@ -1051,7 +1051,7 @@ namespace Jogodamas
             this.PcVermelho8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho8.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho8.Location = new System.Drawing.Point(722, 126);
+            this.PcVermelho8.Location = new System.Drawing.Point(492, 346);
             this.PcVermelho8.Name = "PcVermelho8";
             this.PcVermelho8.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho8.TabIndex = 93;
@@ -1063,7 +1063,7 @@ namespace Jogodamas
             this.PcVermelho7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho7.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho7.Location = new System.Drawing.Point(630, 126);
+            this.PcVermelho7.Location = new System.Drawing.Point(400, 346);
             this.PcVermelho7.Name = "PcVermelho7";
             this.PcVermelho7.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho7.TabIndex = 92;
@@ -1075,7 +1075,7 @@ namespace Jogodamas
             this.PcVermelho6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho6.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho6.Location = new System.Drawing.Point(590, 313);
+            this.PcVermelho6.Location = new System.Drawing.Point(538, 390);
             this.PcVermelho6.Name = "PcVermelho6";
             this.PcVermelho6.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho6.TabIndex = 91;
@@ -1087,7 +1087,7 @@ namespace Jogodamas
             this.PcVermelho5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho5.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho5.Location = new System.Drawing.Point(492, 32);
+            this.PcVermelho5.Location = new System.Drawing.Point(264, 390);
             this.PcVermelho5.Name = "PcVermelho5";
             this.PcVermelho5.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho5.TabIndex = 90;
@@ -1099,7 +1099,7 @@ namespace Jogodamas
             this.PcVermelho4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho4.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho4.Location = new System.Drawing.Point(676, 82);
+            this.PcVermelho4.Location = new System.Drawing.Point(446, 302);
             this.PcVermelho4.Name = "PcVermelho4";
             this.PcVermelho4.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho4.TabIndex = 89;
@@ -1111,7 +1111,7 @@ namespace Jogodamas
             this.PcVermelho3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho3.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho3.Location = new System.Drawing.Point(584, 82);
+            this.PcVermelho3.Location = new System.Drawing.Point(354, 302);
             this.PcVermelho3.Name = "PcVermelho3";
             this.PcVermelho3.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho3.TabIndex = 88;
@@ -1123,7 +1123,7 @@ namespace Jogodamas
             this.PcVermelho2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho2.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho2.Location = new System.Drawing.Point(559, 32);
+            this.PcVermelho2.Location = new System.Drawing.Point(310, 346);
             this.PcVermelho2.Name = "PcVermelho2";
             this.PcVermelho2.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho2.TabIndex = 87;
@@ -1135,7 +1135,7 @@ namespace Jogodamas
             this.PcVermelho1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PcVermelho1.BackgroundImage = global::Jogodamas.Properties.Resources.redButton;
             this.PcVermelho1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.PcVermelho1.Location = new System.Drawing.Point(400, 32);
+            this.PcVermelho1.Location = new System.Drawing.Point(218, 346);
             this.PcVermelho1.Name = "PcVermelho1";
             this.PcVermelho1.Size = new System.Drawing.Size(46, 44);
             this.PcVermelho1.TabIndex = 86;
