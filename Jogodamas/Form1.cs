@@ -93,9 +93,9 @@ namespace Jogodamas
 
         private bool movimentosExtras(string cor)
         {
-            List<PictureBox> ladoOposto = cor == "Verm" ? azuis : vermelhos;
+            List<PictureBox> ladoOposto = cor == "PcVe" ? azuis : vermelhos;
             List<Point> posicoes = new List<Point>();
-            int sigPosicao = cor == "Verm" ? -100 : 100;
+            int sigPosicao = cor == "PcVe" ? -100 : 100;
 
             posicoes.Add(new Point(selecionado.Location.X + 100, selecionado.Location.Y + sigPosicao));
             posicoes.Add(new Point(selecionado.Location.X - 100, selecionado.Location.Y + sigPosicao));
@@ -106,7 +106,7 @@ namespace Jogodamas
             }
             bool resultado = false;
             for (int i = 0; i < posicoes.Count; i++)
-            {
+            { 
                 if (posicoes[i].X >= 50 && posicoes[i].X <= 400 && posicoes[i].Y >= 50 && posicoes[i].Y <=400)
                 {
                     if(!ocupado(posicoes[i], vermelhos) && !ocupado(posicoes[i], azuis))
@@ -145,7 +145,7 @@ namespace Jogodamas
             Point pontoOrigem = origem.Location;
             Point pontoDestino = destino.Location;
             int avance = pontoOrigem.Y - pontoDestino.Y;
-            avance = cor == "vermelho" ? avance : (avance * -1);
+            avance = cor == "PcVe" ? avance : (avance * -1);
             avance = selecionado.Tag == "queen" ? Math.Abs(avance) : avance;
 
             if (avance == 50)
@@ -155,7 +155,7 @@ namespace Jogodamas
             else if (avance == 100)
             {
                 Point pontoMedio = new Point(media(pontoDestino.X, pontoOrigem.X), media(pontoDestino.Y, pontoOrigem.Y)); // 6min aula 3
-                List<PictureBox> ladoOposto = cor == "vermelhos" ? azuis : vermelhos;
+                List<PictureBox> ladoOposto = cor == "PcVe" ? azuis : vermelhos;
                 for(int i = 0; i < ladoOposto.Count; i++)
                 {
                     if(ladoOposto[i].Location == pontoMedio)
@@ -170,23 +170,18 @@ namespace Jogodamas
         }
         private void Ifqueen(string color)
         {
-            if(color == "PcAz" && selecionado.Location.Y == 390)
+            if(color == "PcAz" && selecionado.Location.Y == 400)
             {
                 selecionado.BackgroundImage = Properties.Resources.coroazul;
                 selecionado.Tag = "rainha";
             }
-            else if (color == "PcVe" && selecionado.Location.Y == 82 )
+            else if (color == "PcVe" && selecionado.Location.Y == 50 )
             {
                 selecionado.BackgroundImage = Properties.Resources.coroaverm;
                 selecionado.Tag = "rainha";
             }
         }
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PcVermelho9_Click(object sender, EventArgs e)
         {
 
         }
@@ -200,11 +195,6 @@ namespace Jogodamas
         {
             selecao(sender);
         }
-
-        //private void q(object sender, MouseEventArgs e)
-        //{
-
-        //}
 
         private void quadroClick(object sender, MouseEventArgs e)
         {
