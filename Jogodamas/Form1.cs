@@ -64,15 +64,17 @@ namespace Jogodamas
         }
         private void movimento(PictureBox quadro)
         {
-            if(selecionado != null)
-            {
-                if(true)
-                {                
-                    string cor = selecionado.Name.ToString().Substring(0, 4);
-                    Point anterior = selecionado.Location;
-                    selecionado.Location = quadro.Location;
-                    int avancar = anterior.Y - quadro.Location.Y;
+            string cor = selecionado.Name.ToString().Substring(0, 4);
 
+            if (validacao(selecionado,quadro, cor))
+            {
+                Point anterior = selecionado.Location;
+                selecionado.Location = quadro.Location;
+                int avancar = anterior.Y - quadro.Location.Y;
+
+                if (!movimentosExtras(cor) | Math.Abs(avancar) == 50)
+                {                
+                   
                     if(true)
                     {
                         Ifqueen(cor);
@@ -88,6 +90,48 @@ namespace Jogodamas
                 }
             }
         }
+
+        private bool movimentosExtras(string cor)
+        {
+            List<PictureBox> ladoOposto = cor == "Verm" ? azuis : vermelhos;
+            List<Point> posicoes = new List<Point>();
+            int sigPosicao = cor == "Verm" ? -100 : 100;
+
+            posicoes.Add(new Point(selecionado.Location.X + 100, selecionado.Location.Y + sigPosicao));
+            posicoes.Add(new Point(selecionado.Location.X - 100, selecionado.Location.Y + sigPosicao));
+            if (selecionado.Tag == "queen")
+            {
+                posicoes.Add(new Point(selecionado.Location.X + selecionado.Location.Y - sigPosicao));
+                posicoes.Add(new Point(selecionado.Location.X - selecionado.Location.Y - sigPosicao));
+            }
+            bool resultado = false;
+            for (int i = 0; i < posicoes.Count; i++)
+            {
+                if (posicoes[i].X >= 50 && posicoes[i].X <= 400 && posicoes[i].Y >= 50 && posicoes[i].Y <=400)
+                {
+                    if(!ocupado(posicoes[i], vermelhos) && !ocupado(posicoes[i], azuis))
+                    {
+                        Point pontoMedio = new Point(media(posicoes[i].X, selecionado.Location.X), media(posicoes[i].Y, selecionado.Location.Y));
+                        if(ocupado(pontoMedio, ladoOposto))
+                        {
+                            resultado = true;
+                        }
+                    }
+                }
+            }
+            return resultado;
+        } 
+        private bool ocupado(Point ponto, List<PictureBox>lado)
+        {
+            for (int i = 0; i < lado.Count; i++)
+            {
+                if (ponto == lado[i].Location)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         private int media(int n1, int n2)
         {
             int resultado = n1 + n2;
@@ -96,14 +140,42 @@ namespace Jogodamas
 
         }
 
+        private bool validacao(PictureBox origem, PictureBox destino, string cor)
+        {
+            Point pontoOrigem = origem.Location;
+            Point pontoDestino = destino.Location;
+            int avance = pontoOrigem.Y - pontoDestino.Y;
+            avance = cor == "vermelho" ? avance : (avance * -1);
+            avance = selecionado.Tag == "queen" ? Math.Abs(avance) : avance;
+
+            if (avance == 50)
+            {
+                return true;
+            }
+            else if (avance == 100)
+            {
+                Point pontoMedio = new Point(media(pontoDestino.X, pontoOrigem.X), media(pontoDestino.Y, pontoOrigem.Y)); // 6min aula 3
+                List<PictureBox> ladoOposto = cor == "vermelhos" ? azuis : vermelhos;
+                for(int i = 0; i < ladoOposto.Count; i++)
+                {
+                    if(ladoOposto[i].Location == pontoMedio)
+                    {
+                        ladoOposto[i].Location = new Point(0, 0);
+                        ladoOposto[i].Visible = false;
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
         private void Ifqueen(string color)
         {
-            if(color == "azuis" && selecionado.Location.Y == 400)
+            if(color == "PcAz" && selecionado.Location.Y == 390)
             {
                 selecionado.BackgroundImage = Properties.Resources.coroazul;
                 selecionado.Tag = "rainha";
             }
-            else if (color == "vermelhos" && selecionado.Location.Y == 50)
+            else if (color == "PcVe" && selecionado.Location.Y == 82 )
             {
                 selecionado.BackgroundImage = Properties.Resources.coroaverm;
                 selecionado.Tag = "rainha";

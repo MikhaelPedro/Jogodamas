@@ -218,7 +218,7 @@ namespace Jogodamas
             this.pictureBox1.Image = global::Jogodamas.Properties.Resources.gramabackground;
             this.pictureBox1.Location = new System.Drawing.Point(-14, -21);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(803, 490);
+            this.pictureBox1.Size = new System.Drawing.Size(839, 559);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -296,7 +296,7 @@ namespace Jogodamas
             this.pictureBox9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox9.Location = new System.Drawing.Point(446, 82);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(46, 44);
+            this.pictureBox9.Size = new System.Drawing.Size(82, 113);
             this.pictureBox9.TabIndex = 7;
             this.pictureBox9.TabStop = false;
             // 
